@@ -1,33 +1,44 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#210d19">
-  <title>BeyondPass — Seu fim de semana pede mais</title>
-  <meta name="description" content="Conheça a BeyondPass, proposta de assinatura para descobrir e reservar até quatro experiências de cultura e lazer por mês.">
+  <title>BeyondPass — Make more of your weekend</title>
+  <meta name="description" content="Discover BeyondPass, a membership concept for booking up to four arts and leisure experiences each month.">
   <link rel="canonical" href="https://beyondpass.up.railway.app/">
   <meta property="og:url" content="https://beyondpass.up.railway.app/">
   <meta property="og:image" content="https://beyondpass.up.railway.app/assets/cinema.webp">
-  <meta property="og:image:alt" content="Público em uma sessão de cinema ao ar livre">
+  <meta property="og:image:alt" content="Audience at an outdoor movie screening">
+  <link rel="alternate" hreflang="en" href="https://beyondpass.up.railway.app/">
+  <link rel="alternate" hreflang="pt-BR" href="https://beyondpass.up.railway.app/pt/">
+  <link rel="alternate" hreflang="x-default" href="https://beyondpass.up.railway.app/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="pt_BR">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="BeyondPass — Seu fim de semana pede mais">
-  <meta property="og:description" content="Até quatro experiências de cultura e lazer por mês em uma assinatura. Conheça a proposta.">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="preload" href="assets/barlow-condensed-800.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="styles.css">
-  <script src="app.js" defer></script>
+  <meta property="og:title" content="BeyondPass — Make more of your weekend">
+  <meta property="og:description" content="Up to four arts and leisure experiences a month in one membership. Explore the concept.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/assets/barlow-condensed-800.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
 </head>
 <body id="topo">
-  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+  <a class="skip" href="#conteudo">Skip to content</a>
   <header class="masthead">
     <div class="wrap bar">
-      <a class="brand" href="#topo" aria-label="BeyondPass, início"><span class="brand-mark" aria-hidden="true">✳</span> beyond<span class="brand-accent">pass</span></a>
-      <nav class="navigation" aria-label="Principal">
-        <a href="#experiencias">Experiências</a>
-        <a href="#como-funciona">Como funciona</a>
+      <a class="brand" href="#topo" aria-label="BeyondPass, home"><span class="brand-mark" aria-hidden="true">✳</span> beyond<span class="brand-accent">pass</span></a>
+      <nav class="navigation" aria-label="Main">
+        <a href="#experiencias">Experiences</a>
+        <a href="#como-funciona">How it works</a>
       </nav>
-      <a class="button button-outline" href="#plano">Ver o plano <span aria-hidden="true">↗</span></a>
+      <div class="header-actions">
+        <a class="button button-outline" href="#plano" aria-label="See the plan"><span class="header-plan-full">See the plan</span><span class="header-plan-short" aria-hidden="true">Plan</span><span class="header-plan-arrow" aria-hidden="true">↗</span></a>
+        <nav class="language-switch" aria-label="Language">
+          <a href="/" lang="en" hreflang="en" aria-label="English" aria-current="page"><svg width="17" height="12" viewBox="0 0 30 20" aria-hidden="true" focusable="false"><rect width="30" height="20" fill="#17366a"/><path d="m0 0 30 20m0-20L0 20" stroke="#fff" stroke-width="5"/><path d="m0 0 30 20m0-20L0 20" stroke="#c32941" stroke-width="2"/><path d="M15 0v20M0 10h30" stroke="#fff" stroke-width="7"/><path d="M15 0v20M0 10h30" stroke="#c32941" stroke-width="4"/></svg><span>EN</span></a>
+          <a href="/pt/" lang="pt-BR" hreflang="pt-BR" aria-label="Português"><svg width="17" height="12" viewBox="0 0 30 20" aria-hidden="true" focusable="false"><rect width="30" height="20" fill="#168244"/><path d="m15 2 12 8-12 8-12-8Z" fill="#ffdb55"/><circle cx="15" cy="10" r="5" fill="#244788"/><path d="M10.6 8.4a11 11 0 0 1 9 3.1" fill="none" stroke="#fff" stroke-width="1.3"/></svg><span>PT</span></a>
+        </nav>
+      </div>
     </div>
   </header>
 
@@ -35,72 +46,72 @@
     <section class="hero" aria-labelledby="hero-titulo">
       <div class="wrap hero-grid">
         <div class="hero-copy">
-          <p class="hero-kicker"><span aria-hidden="true"></span> Cultura e lazer por assinatura</p>
-          <h1 id="hero-titulo">Seu fim de<br>semana pede<br><em>mais.</em></h1>
-          <p class="hero-description">Do cinema ao ar livre à sua primeira aula de dança. Descubra e reserve até quatro experiências por mês em uma assinatura.</p>
+          <p class="hero-kicker"><span aria-hidden="true"></span> Arts and leisure membership</p>
+          <h1 id="hero-titulo">Make more<br>of your<br><em>weekend.</em></h1>
+          <p class="hero-description">From open-air movies to your first dance class. Discover and book up to four experiences a month with one membership.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#experiencias">Explorar experiências <span aria-hidden="true">↗</span></a>
-            <a class="text-link" href="#como-funciona">Como funciona <span aria-hidden="true">↓</span></a>
+            <a class="button button-primary" href="#experiencias">Explore experiences <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#como-funciona">How it works <span aria-hidden="true">↓</span></a>
           </div>
         </div>
         <figure class="hero-media">
-          <img src="assets/cinema.webp" srcset="assets/cinema-mobile.webp 768w, assets/cinema.webp 1440w" sizes="(max-width: 850px) 92vw, 58vw" alt="Público em uma sessão de cinema ao ar livre, em um pátio iluminado de vermelho" width="1440" height="960" fetchpriority="high">
-          <figcaption class="image-caption"><span aria-hidden="true">◉</span> Cinema ao ar livre</figcaption>
+          <img src="/assets/cinema-768.webp" srcset="/assets/cinema-480.webp 480w, /assets/cinema-768.webp 768w, /assets/cinema-1080.webp 1080w, /assets/cinema.webp 1440w" sizes="(max-width: 600px) calc(100vw - 36px), (max-width: 850px) calc(100vw - 64px), (max-width: 1050px) calc((100vw - 90px) * .555), (max-width: 1424px) calc((100vw - 130px) * .555), 718px" alt="Audience at an outdoor movie screening in a red-lit courtyard" width="1440" height="960" fetchpriority="high">
+          <figcaption class="image-caption"><span aria-hidden="true">◉</span> Open-air cinema</figcaption>
         </figure>
       </div>
     </section>
 
     <div class="genre-band" aria-hidden="true">
-      <div class="wrap genre-list"><span>Cinema</span><b>✳</b><span>Teatro</span><b>✳</b><span>Dança</span><b>✳</b><span>Oficinas</span><b>✳</b><span>Música</span></div>
+      <div class="wrap genre-list"><span>Cinema</span><b>✳</b><span>Theater</span><b>✳</b><span>Dance</span><b>✳</b><span>Workshops</span><b>✳</b><span>Music</span></div>
     </div>
 
     <section class="section discovery" id="experiencias" aria-labelledby="experiencias-titulo">
       <div class="wrap">
         <div class="section-heading discovery-heading">
-          <h2 id="experiencias-titulo">O que dá vontade<br>de fazer hoje?</h2>
-          <p id="filter-help">Na proposta da BeyondPass, a IA sugere experiências com base nos seus gostos. Escolha um interesse para ver exemplos do que poderia aparecer.</p>
+          <h2 id="experiencias-titulo">What are you in<br>the mood for?</h2>
+          <p id="filter-help">BeyondPass would use AI to suggest experiences based on your tastes. Pick an interest to preview the kinds of things you might discover.</p>
         </div>
-        <div class="filters" role="group" aria-label="Filtrar por interesse" aria-describedby="filter-help" hidden>
-          <button type="button" aria-pressed="true" data-filter="todos">Todas</button>
+        <div class="filters" role="group" aria-label="Filter by interest" aria-describedby="filter-help" hidden>
+          <button type="button" aria-pressed="true" data-filter="todos">All</button>
           <button type="button" aria-pressed="false" data-filter="cinema">Cinema</button>
-          <button type="button" aria-pressed="false" data-filter="palco">Teatro e dança</button>
-          <button type="button" aria-pressed="false" data-filter="oficina">Oficinas</button>
-          <button type="button" aria-pressed="false" data-filter="musica">Música</button>
+          <button type="button" aria-pressed="false" data-filter="palco">Theater and dance</button>
+          <button type="button" aria-pressed="false" data-filter="oficina">Workshops</button>
+          <button type="button" aria-pressed="false" data-filter="musica">Music</button>
         </div>
-        <p class="sr-only" aria-live="polite" id="filter-status"></p>
+        <p class="sr-only" aria-live="polite" id="filter-status" data-singular="1 experience shown." data-plural="{count} experiences shown."></p>
         <div class="experience-grid">
           <article class="experience" data-category="cinema">
-            <div class="experience-image"><img src="assets/cinema-mobile.webp" alt="" width="768" height="512" loading="lazy"><span>Cinema</span></div>
-            <h3>Cinema sob as estrelas</h3>
-            <p>Uma sessão ao ar livre em um pátio cultural.</p>
+            <div class="experience-image"><img src="/assets/cinema-480.webp" alt="" width="480" height="320" loading="lazy" decoding="async"><span>Cinema</span></div>
+            <h3>Cinema under the stars</h3>
+            <p>An outdoor screening in an arts venue courtyard.</p>
           </article>
           <article class="experience" data-category="palco">
-            <div class="experience-image"><img src="assets/palco.webp" alt="" width="640" height="640" loading="lazy"><span>Teatro e dança</span></div>
-            <h3>Dança de perto</h3>
-            <p>Um espetáculo contemporâneo em um palco intimista.</p>
+            <div class="experience-image"><img src="/assets/palco.webp" alt="" width="640" height="640" loading="lazy" decoding="async"><span>Theater and dance</span></div>
+            <h3>Dance up close</h3>
+            <p>A contemporary dance performance in an intimate venue.</p>
           </article>
           <article class="experience" data-category="oficina">
-            <div class="experience-image"><img src="assets/oficina.webp" alt="" width="640" height="640" loading="lazy"><span>Oficinas</span></div>
-            <h3>Mãos na argila</h3>
-            <p>Uma oficina de cerâmica para modelar sua primeira peça.</p>
+            <div class="experience-image"><img src="/assets/oficina.webp" alt="" width="640" height="640" loading="lazy" decoding="async"><span>Workshops</span></div>
+            <h3>Hands in clay</h3>
+            <p>A ceramics workshop where you can shape your first piece.</p>
           </article>
           <article class="experience" data-category="musica">
-            <div class="experience-image"><img src="assets/musica.webp" alt="" width="640" height="640" loading="lazy"><span>Música</span></div>
-            <h3>Noite de vinil</h3>
-            <p>Uma seleção de discos ao vivo em um bar de escuta.</p>
+            <div class="experience-image"><img src="/assets/musica.webp" alt="" width="640" height="640" loading="lazy" decoding="async"><span>Music</span></div>
+            <h3>Vinyl night</h3>
+            <p>A live vinyl set at a listening bar.</p>
           </article>
         </div>
-        <p class="fine-print">Programação e fotografias ilustrativas.</p>
+        <p class="fine-print">Sample listings and illustrative images.</p>
       </div>
     </section>
 
     <section class="section process" id="como-funciona" aria-labelledby="processo-titulo">
       <div class="wrap">
-        <div class="section-heading"><h2 id="processo-titulo">Como funciona</h2></div>
+        <div class="section-heading"><h2 id="processo-titulo">How it works</h2></div>
         <ol class="steps">
-          <li><span class="step-number" aria-hidden="true">01</span><h3>Conte o que você curte.</h3><p>De cinema a oficinas, indique os tipos de programa que fazem seu estilo.</p></li>
-          <li><span class="step-number" aria-hidden="true">02</span><h3>Descubra novos rolês.</h3><p>Receba sugestões com IA e explore as experiências que estiverem no catálogo.</p></li>
-          <li><span class="step-number" aria-hidden="true">03</span><h3>Reserve e vá.</h3><p>Escolha até quatro experiências por mês de acordo com a disponibilidade.</p></li>
+          <li><span class="step-number" aria-hidden="true">01</span><h3>Tell us what you like.</h3><p>From movies to workshops, choose the kinds of outings you enjoy.</p></li>
+          <li><span class="step-number" aria-hidden="true">02</span><h3>Find something new.</h3><p>Get AI-powered suggestions and explore what’s on offer.</p></li>
+          <li><span class="step-number" aria-hidden="true">03</span><h3>Book and go.</h3><p>Book up to four experiences a month, subject to availability.</p></li>
         </ol>
       </div>
     </section>
@@ -108,31 +119,31 @@
     <section class="section plan" id="plano" aria-labelledby="plano-titulo">
       <div class="wrap plan-grid">
         <div class="plan-copy">
-          <h2 id="plano-titulo">Quatro experiências.<br>Uma assinatura.</h2>
-          <p>Um programa para cada fim de semana ou vários no mesmo. Você escolhe como usar suas reservas do mês.</p>
+          <h2 id="plano-titulo">Four experiences.<br>One membership.</h2>
+          <p>Plan one outing each weekend or fit several into one. Your monthly bookings are yours to use.</p>
         </div>
         <div class="ticket">
-          <div class="ticket-top"><p>Plano mensal</p><span aria-hidden="true">✳</span></div>
-          <p class="price-label">Preço proposto</p>
-          <p class="price"><span class="currency">R$</span> <strong>159,90</strong><span class="period">/mês</span></p>
+          <div class="ticket-top"><p>Monthly plan</p><span aria-hidden="true">✳</span></div>
+          <p class="price-label">Proposed price</p>
+          <p class="price"><span class="currency">R$</span> <strong>159.90</strong><span class="period">/month</span></p>
           <ul class="ticket-list">
-            <li>Até quatro experiências por mês</li>
-            <li>Sugestões personalizadas com IA</li>
-            <li>Curadoria de cultura e lazer</li>
+            <li>Up to four experiences a month</li>
+            <li>Personalized AI suggestions</li>
+            <li>Curated arts and leisure experiences</li>
           </ul>
-          <p class="ticket-note">A BeyondPass é um conceito. Reservas e pagamentos ainda estão indisponíveis.</p>
+          <p class="ticket-note">BeyondPass is a concept. Bookings and payments are currently unavailable.</p>
         </div>
       </div>
     </section>
 
     <section class="section faq" id="perguntas" aria-labelledby="faq-titulo">
       <div class="wrap faq-grid">
-        <h2 id="faq-titulo">Perguntas<br>frequentes</h2>
+        <h2 id="faq-titulo">Frequently asked<br>questions</h2>
         <div class="questions">
-          <details><summary>Posso assinar a BeyondPass agora?</summary><p>A BeyondPass é uma proposta de serviço. O valor de R$ 159,90 por mês vem do pitch e serve como referência para o conceito.</p></details>
-          <details><summary>Em quais cidades ela estará disponível?</summary><p>As cidades atendidas e a programação dependeriam das parcerias que o serviço firmasse para o lançamento.</p></details>
-          <details><summary>Preciso usar as quatro reservas do mês?</summary><p>A proposta oferece até quatro reservas por mês. Você pode escolher quantas quer usar, dentro desse limite.</p></details>
-          <details><summary>Como a IA faria as recomendações?</summary><p>A ideia é recomendar experiências a partir dos interesses que você indicar. O filtro acima simula parte dessa experiência.</p></details>
+          <details><summary>Can I join BeyondPass today?</summary><p>BeyondPass is a proposed service. The R$159.90 monthly price is an estimate from the original pitch.</p></details>
+          <details><summary>Which cities would it be available in?</summary><p>The launch cities and listings would depend on local partnerships.</p></details>
+          <details><summary>Do I have to use all four monthly bookings?</summary><p>You’d have up to four bookings each month and could use as many as you like within that limit.</p></details>
+          <details><summary>How would the AI recommendations work?</summary><p>The idea is to recommend experiences based on the interests you share. The filter above gives you a preview.</p></details>
         </div>
       </div>
     </section>
@@ -140,9 +151,9 @@
 
   <footer class="footer">
     <div class="wrap footer-grid">
-      <a class="brand" href="#topo" aria-label="BeyondPass, início"><span class="brand-mark" aria-hidden="true">✳</span> beyond<span class="brand-accent">pass</span></a>
-      <p>BeyondPass · Projeto conceitual</p>
-      <a class="text-link" href="#topo">Voltar ao topo <span aria-hidden="true">↑</span></a>
+      <a class="brand" href="#topo" aria-label="BeyondPass, home"><span class="brand-mark" aria-hidden="true">✳</span> beyond<span class="brand-accent">pass</span></a>
+      <p>BeyondPass · Concept project</p>
+      <a class="text-link" href="#topo">Back to top <span aria-hidden="true">↑</span></a>
     </div>
   </footer>
 </body>
