@@ -98,7 +98,7 @@ section[id] { scroll-margin-top: 72px; }
 .hero-kicker { display: flex; align-items: center; gap: 10px; color: var(--peach); font-weight: 700; font-size: .83rem; }
 .hero-kicker span { display: block; width: 19px; height: 2px; background: var(--peach); }
 h1, h2 { font-family: var(--display); font-weight: 800; text-transform: uppercase; }
-h1 { margin: 21px 0 25px; font-size: clamp(5.6rem, 8.65vw, 9rem); line-height: .79; letter-spacing: -.025em; }
+h1 { margin: 21px 0 25px; font-size: clamp(4.15rem, 7.55vw, 8.2rem); line-height: .79; letter-spacing: -.025em; }
 h1 em { color: var(--peach); font-style: normal; }
 .hero-description { max-width: 408px; color: #f1d9d8; font-size: clamp(1rem, 1.37vw, 1.2rem); line-height: 1.55; }
 .hero-actions { display: flex; align-items: center; flex-wrap: wrap; column-gap: 25px; row-gap: 10px; margin-top: 27px; }
@@ -218,7 +218,7 @@ h3 { font-weight: 700; }
   .brand { font-size: 1.8rem; }
   .button-outline { min-height: 44px; padding-inline: 13px; }
   .hero { padding-top: 24px; }
-  h1 { font-size: clamp(3.85rem, 15vw, 6rem); margin: 18px 0 21px; }
+  h1 { font-size: clamp(3.5rem, 15.75vw, 6rem); margin: 18px 0 21px; }
   .hero-actions { margin-top: 19px; column-gap: 17px; }
   .button-primary { padding-inline: 14px; gap: 9px; }
   .hero-media { aspect-ratio: 1.36; }
